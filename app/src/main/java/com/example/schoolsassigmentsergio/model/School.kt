@@ -11,15 +11,15 @@ data class School(
     @SerialName("school_name")
     val schoolName: String,
     @SerialName("campus_name")
-    val campusName: String = "",
+    val campusName: String? = null,
     @SerialName("neighborhood")
     val neighborhood: String,
     @SerialName("overview_paragraph")
     val overview: String,
     @SerialName("school_email")
-    val schoolEmail: String? = "",
+    val schoolEmail: String? = null,
     @SerialName("phone_number")
-    val phoneNumber: String? = "",
+    val phoneNumber: String? = null,
     @SerialName("academicopportunities1")
     val academicOpportunities: String? = "",
 )

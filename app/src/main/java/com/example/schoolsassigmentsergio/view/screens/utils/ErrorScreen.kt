@@ -16,8 +16,7 @@ import com.example.schoolsassigmentsergio.view.AppState
 @Composable
 fun ErrorScreen(
     modifier: Modifier,
-    retryAction: () -> Unit,
-    appState: AppState.Error,
+    retryAction: () -> Unit
 ) {
     Column(
         modifier = modifier.fillMaxSize(),
