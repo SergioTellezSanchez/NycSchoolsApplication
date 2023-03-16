@@ -2,9 +2,33 @@
     <string name="app_name">SchoolsAssignmentSergio</string>
     <string name="loading">Loading</string>
     <string name="loading_failed">Loading failed</string>
-    <string name="satMathAvgScore">Sat Math Average Score: %s</string>
-    <string name="satCriticalReadingAvgScore">%1$s : Sat Critical Reading Average: %s</string>
-    <string name="satWritingAvgScore">Sat Writing Average Score: %s</string>
-    <string name="numOfSatTestTakers">Num of Sat Test Takers: %s</string>
-    <string name="overview">Overview</string>
+    <string name="sat_math_avg_score">Sat Math Average Score: %s</string>
+    <string name="sat_critical_reading_avg_score">Sat Critical Reading Average: %s</string>
+    <string name="sat_writing_avg_score">Sat Writing Average Score: %s</string>
+    <string name="num_of_sat_test_takers">Num of Sat Test Takers: %s</string>
+    <string name="overview_header">Overview</string>
+    <string name="school_name">School Name: %s</string>
+    <string name="campus_name">Campus Name: %s</string>
+    <string name="school_email">Email: %s</string>
+    <string name="neighborhood">Neighborhood: %s</string>
+    <string name="phone_number">Phone Number: %s</string>
+    <string name="school_name_">School: %s</string>
+
+    // Testing
+    <string name="test_id">001</string>
+    <string name="test_school_name">HENRY STREET SCHOOL FOR INTERNATIONAL STUDIES</string>
+    <string name="test_campus_name">Manhattan Center</string>
+    <string name="test_overview">"Henry Street School for International Studies is a public school located in New York, NY. It has 1,024 students in grades PK, K-12 with a student-teacher ratio of 13 to 1. According to state test scores, 1% of students are at least proficient in math and 1% in reading."</string>
+    <string name="test_num_of_sat_test_takers">29</string>
+    <string name="test_sat_critical_reading_avg_score">355</string>
+    <string name="test_sat_math_avg_score">404</string>
+    <string name="test_sat_writing_avg_score">363</string>
+    <string name="test_neighborhood">Manhattan</string>
+    <string name="test_school_email">testmailschool@mail.com</string>
+    <string name="test_phone_number">601 568 2893</string>
+    <string name="test_academic_opportunities">CSTEP provides customized strategies for success in all aspects of your life-with a special emphasis on your career plans for pre-med/pre-law, engineering, education, accounting, and more. HEOP at Syracuse University provides higher education access to underrepresented students from across New York State. LSAMP is dedicated to increasing the number of underrepresented students graduating with baccalaureate degrees in the fields of science, technology, engineering and mathematics (STEM).</string>
+
+
+
+
 </resources>
