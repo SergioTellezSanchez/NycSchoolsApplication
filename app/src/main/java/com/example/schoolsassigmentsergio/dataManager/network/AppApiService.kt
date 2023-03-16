@@ -6,7 +6,6 @@ import retrofit2.http.GET
 
 interface AppApiService {
 
-    //Here retrofit help us creating the code to call get
     @GET("resource/s3k6-pzi2.json")
     suspend fun getSchoolsData(): ArrayList<School>
 
