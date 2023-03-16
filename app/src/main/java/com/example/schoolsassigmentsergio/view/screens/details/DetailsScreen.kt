@@ -26,7 +26,7 @@ fun DetailsScreen(
             modifier = modifier,
             uiState = uiState
         )
-        is AppState.Error -> ErrorScreen(modifier, retryAction, appState)
+        is AppState.Error -> ErrorScreen(modifier, retryAction)
     }
 
 }

@@ -30,7 +30,7 @@ fun MainScreen(
                 seeDetails(schoolSelected, appState.schoolsDetails)
             }
         )
-        is AppState.Error -> ErrorScreen(modifier, getSchoolsData, appState)
+        is AppState.Error -> ErrorScreen(modifier, getSchoolsData)
     }
 }
 
@@ -50,14 +50,14 @@ fun SchoolsListScreen(
                 .padding(it),
             color = MaterialTheme.colors.background
         ) {
-
             LazyColumn(
                 contentPadding = PaddingValues(horizontal = 16.dp, vertical = 8.dp)
             ) {
                 items(schoolsList) { schoolData ->
                     SchoolCard(
                         schoolData = schoolData,
-                        seeDetails = { schoolSelected -> seeDetails(schoolSelected) }
+                        seeDetails = { schoolSelected -> seeDetails(schoolSelected) },
+                        modifier = modifier
                     )
                 }
             }
